@@ -5,8 +5,8 @@
 public class MatrixMultRunner{
      
      public static void main(String[] args){
-          int[][] matrix1 = new int[3][3];
-          int[][] matrix2 = new int[3][3];
+          int[][] matrix1 = new int[10][10];
+          int[][] matrix2 = new int[10][10];
           int[][] product;
           
           //setup matrix1 and matrix2 with loops
