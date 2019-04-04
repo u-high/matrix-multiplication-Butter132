@@ -13,8 +13,7 @@ public class MatrixMult
       {
         for(int o = 0; o < m1.length; o++)
         {
-          sum += m1[o][m] * m2[m][o];
-          System.out.println("" + sum);
+          sum += m1[n][o] * m2[o][m];
         }
         ans[n][m] = sum;
         sum = 0;
